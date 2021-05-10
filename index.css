@@ -25,4 +25,14 @@ img {
     color: red;
     
   }
+  #elephant{
+      width: 150px;
+      height: 80px;
+      float: center;
+  }
+  #heart{
+    width: 100px;
+    height:100px;
+    float: center
+  }
   
