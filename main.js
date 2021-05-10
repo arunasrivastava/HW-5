@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     //end of page before show code *************************************************************************
 
-    document.getElementById("buttonSortTitle").addEventListener("click", function() {
+    document.getElementById("buttonSortName").addEventListener("click", function() {
         animalArray.sort(dynamicSort("name"));
         printAnimalList();
         document.location.href = "index.html#ListAll";
